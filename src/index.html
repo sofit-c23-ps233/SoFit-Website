@@ -1,0 +1,188 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../dist/output.css" rel="stylesheet">
+    <link rel="icon" href="../images/LOGO.png" type="image/icon type">
+    <title>SoFit</title>
+
+</head>
+
+<body id="main">
+    <!-- header -->
+    <header>
+        <nav class="flex container mx-auto justify-center items-center my-6">
+            <a class="py-1 flex items-center" href="/">
+                <img class="w-10 mx-3" src="../images/LOGO.png" alt="SoFit Logo" />
+                <h1 class="font-bold text-xl text-brand">SoFit</h1>
+            </a>
+            <ul class="hidden sm:flex flex-1 justify-end items-center gap-12 text-black uppercase text-sm">
+                <a href="#aboutsection" class="cursor-pointer hover:underline">About</a>
+                <li class="cursor-pointer hover:underline">Contact</li>
+                <button type="button"
+                    class="bg-brand text-white rounded-md px-7 py-3 uppercase hover:bg-second hover:text-black">Download</button>
+            </ul>
+            <div class="flex sm:hidden flex-1 justify-end">
+                <i class="text-2xl fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- hero -->
+    <section class="relative container mx-auto bg-soft rounded-b-3xl">
+        <div class="container mx-auto flex flex-col-reverse md:flex-row items-center justify-center">
+            <div class="py-20 mr-32">
+                <h1 class="text-7xl font-bold text-brand">
+                    SoFit
+                </h1>
+                <h2 class="text-lg">
+                    Application for the health of your body <br> and provide recommendations
+                    based on your BMI
+                </h2>
+            </div>
+            <div>
+                <img src="../images/Splash Screen.png" alt="SoFit Splash Screen" class="w-52">
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="aboutsection" class="container mx-auto my-12 flex flex-col-reverse md:flex-row-reverse items-center">
+        <div class="flex text-left flex-col w-1/2">
+            <h1 class="font-bold text-brand text-5xl mb-6 text-left">About</h1>
+            <p class="text-lg text-center md:text-left w-fit">
+                How can you provide easy information about diet and exercise to maintain an ideal BMI? Obesity is a
+                global
+                issue with adverse health effects. Existing BMI calculators and fitness apps often lack accuracy and
+                tailored recommendations. This app integrates BMI prediction, meal suggestions, and exercise
+                recommendations. It can also support healthcare professionals and fitness experts in monitoring their
+                clients' progress. The goals is on accurate BMI prediction and evaluating personalized recommendations'
+                effectiveness for healthier living.
+            </p>
+        </div>
+        <div class="w-1/2">
+            <img src="../images/about.png" class="w-fit" alt="about image">
+        </div>
+    </section>
+
+    <!-- Download -->
+    <section id="aboutsection" class="container mx-auto my-12 flex flex-col-reverse md:flex-row items-center">
+        <div class="flex text-left flex-col w-1/2  items-end">
+            <h1 class="font-bold text-brand text-5xl mb-6">Download</h1>
+            <a href="path_to_file" download="proposed_file_name"
+                class="p-8 bg-brand rounded-3xl w-1/2 text-center text-white text-5xl font-bold hover:bg-second hover:text-black">Here!</a>
+        </div>
+        <div class="w-1/2">
+            <img src="../images/download.png" class="w-fit" alt="about image">
+        </div>
+    </section>
+
+    <!-- contact -->
+    <section>
+        <!-- <div class="grid grid-cols-2 gap-2 place-items-center">
+            card 1 
+        <a href="#"
+                class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
+                    src="../images/1.jpeg" alt="">
+                <div class="flex flex-col justify-between p-4 leading-normal">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-brand">Rifqi Alamsyah</h5>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Cloud Computing</p>
+                </div> 
+       card 2 
+        a href="#"
+                    class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
+                        src="/docs/images/blog/image-4.jpg" alt="">
+                    <div class="flex flex-col justify-between p-4 leading-normal">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy
+                            technology
+                            acquisitions 2021</h5>
+                        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise
+                            technology
+                            acquisitions of 2021 so far, in reverse chronological order.</p>
+                    </div>
+                </a>
+            </a>
+
+        </div> -->
+    </section>
+
+
+
+    <!-- footer -->
+    <footer class="bg-second container mx-auto rounded-t-3xl">
+        <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+            <div class="md:flex md:justify-between">
+                <div class="mb-6 md:mb-0">
+                    <a href="/" class="flex items-center">
+                        <img src="../images/black logo.png" class="h-8 mr-3" alt="SoFit Logo" />
+                        <span class="self-center text-2xl font-semibold whitespace-nowrap">SoFit</span>
+                    </a>
+                    <p class="text-sm w-1/2 mt-4">Application for the health of your body
+                        and provide recommendations based on your BMI</p>
+                </div>
+                <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+                    <div>
+                        <h2 class="mb-6 text-sm font-semibold uppercase">Machine Learning</h2>
+                        <ul class="font-medium">
+                            <li class="mb-4">
+                                <a href="https://flowbite.com/" class="hover:underline">Taryo</a>
+                            </li>
+                            <li>
+                                <a href="https://tailwindcss.com/" class="hover:underline">Eldi A. P.</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 class="mb-6 text-sm font-semibold uppercase">Mobile Dev</h2>
+                        <ul class="font-medium">
+                            <li class="mb-4">
+                                <a href="https://github.com/themesberg/flowbite" class="hover:underline ">Husni S.</a>
+                            </li>
+                            <li>
+                                <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Fikri R. F.</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 class="mb-6 text-sm font-semibold uppercase">Cloud Computing
+                        </h2>
+                        <ul class="font-medium">
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline">Rifqi A.</a>
+                            </li>
+                            <li>
+                                <a href="#" class="hover:underline">Rastra W. N.</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-6 sm:mx-auto lg:my-8" />
+            <div class="sm:flex sm:items-center sm:justify-between">
+                <span class="text-sm sm:text-center">© 2023 <a href="/" class="hover:underline">SoFit</a>. All Rights
+                    Reserved | Built for Educational Purposes Only
+                </span>
+                <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
+                    <a href="https://github.com/sofit-c23-ps233/SoFit-backend" target="_blank">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path fill-rule="evenodd"
+                                d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll on top button -->
+    <a class="fixed bottom-10 right-10 z-99 bg-brand text-white cursor-pointer p-3 rounded-full" href="#main">
+        <h1 class="text-xl">^</h1>
+    </a>
+</body>
+
+</html>
